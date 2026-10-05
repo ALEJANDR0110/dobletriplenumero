@@ -3,11 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import PadreMatematicas from './components/PadreMatematicas'
+import Contador from './components/Contador'
+import Car from './components/Car'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Car marca="Audi" modelo="Q8" velocidadMaxima="240" aceleracion="25" />
+    <Car marca="ferrari" modelo="aventador" velocidadMaxima="280" aceleracion="33" />
   </React.StrictMode>
 );
 
